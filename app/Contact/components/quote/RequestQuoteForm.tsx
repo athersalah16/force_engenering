@@ -4,7 +4,6 @@ import { getTheData } from "../../../utils/getFormData";
 import { validateForm } from "../../../utils/validateData";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
-import { sendGAEvent } from "@next/third-parties/google";
 
 function RequestQuoteForm() {
   const [error, setError] = useState<boolean>(false);
@@ -37,7 +36,6 @@ function RequestQuoteForm() {
         setError(false);
         formRef.current?.reset();
         toast.success("Request Sent Successfully!");
-        sendGAEvent("event", "generate_lead", { form_name: "request_quote" });
         return;
       }
     } catch {
