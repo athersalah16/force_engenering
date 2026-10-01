@@ -1,5 +1,4 @@
 import BaseSection from "@/app/common/base/BaseSection";
-import { sendGAEvent } from "@next/third-parties/google";
 import { Download } from "lucide-react";
 import { toast } from "sonner";
 
