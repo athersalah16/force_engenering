@@ -45,11 +45,11 @@ function Footer() {
           reserved.
         </p>
         <div className=" flex   flex-row gap-6">
-          {" "}
+
           <div className=" flex lg:flex-row flex-col justify-center gap-4 items-center text-white  text-sm">
             <div className="w-12 h-8 flex justify-center items-center bg-white p-2 rounded-md">
               <Image
-                src={"/icv_certification/icv_logo.png"}
+                src={"/certifications/icv_certification/icv_logo.png"}
                 alt="ICV Image"
                 width={50}
                 height={50}
@@ -58,10 +58,10 @@ function Footer() {
             UAE ICV Certified
           </div>
           <div className=" text-sm flex lg:flex-row flex-col justify-center gap-4 items-center text-white ">
-            {" "}
+  
             <div className="w-12 h-12 bg-white p-2 rounded-md">
               <Image
-                src={"/iso_certification/iso_logo.png"}
+                src={"/certifications/iso_certification/iso_logo.png"}
                 alt="ISO Image"
                 width={50}
                 height={50}

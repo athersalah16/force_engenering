@@ -24,7 +24,7 @@ function DiplayProduct({ data }: Props) {
         className={`p-2  font-semibold text-center ${title.length > 8 ? "text-lg " : "text-2xl"} text-blue-900 hover:cursor-text`}
       >
         {switchToTitle(title)}
-        <span>{}</span>
+      
       </p>
     </div>
   );
