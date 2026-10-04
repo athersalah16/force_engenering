@@ -13,7 +13,7 @@ function Logo({
         className={`w-full h-16 ${AddBackground ? "bg-white rounded-lg  p-2 " : ""}  flex justify-center items-center`}
       >
         <Image
-          src={"/logo.jpeg"}
+          src={"/logo.png"}
           alt="Force Engenring logo"
           loading="lazy"
           width={300}
