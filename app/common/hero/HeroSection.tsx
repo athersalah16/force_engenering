@@ -4,7 +4,7 @@ import { toast } from "sonner";
 
 function HeroSection() {
   const handleClick = () => {
-    toast.success("Company Profile downloded Sucessfully");
+    toast.success("Company Profile downloaded Successfully");
   };
   return (
     <BaseSection sectionID="/" className="relative mt-16 overflow-hidden">
@@ -27,14 +27,12 @@ function HeroSection() {
             Engineering · Procurement · Industrial Solutions
           </p>
           <div className="text-5xl  leading-10 font-bold py-4 text-white">
-            <p className="text-6xl">Reliable supply</p>
-            Technical <br />
-            <p className="text-6xl">expertise</p>
-            <p className="text-5xl font-bold text-blue-500">Project support </p>
+            <p className="text-6xl">ENGINEERED <br/> TO DELIVER. </p>
+            <p className="text-5xl font-bold text-blue-500">BUILT TO PERFORM. </p>
           </div>
           <div className="w-full flex  flex-col gap-4 lg:flex-row">
             <a
-              href="/company_profile.pdf"
+              href="/force_company_profile.pdf"
               download
               onClick={handleClick}
               className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded flex flex-row items-center gap-2 w-fit"

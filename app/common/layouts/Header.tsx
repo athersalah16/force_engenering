@@ -26,7 +26,7 @@ function Header() {
       className={`flex fixed flex-row items-center justify-between w-full px-4 py-2   z-50 bg-white ${isScrolled ? " border-gray-300  shadow-md lg:shadow-lg shadow-gray-300 " : " border-gray-200 "} border-b  transition-all duration-300`}
     >
       <div>
-        <Logo className="text-blue-400" />
+        <Logo />
       </div>
 
       <div className="hidden   lg:flex ">

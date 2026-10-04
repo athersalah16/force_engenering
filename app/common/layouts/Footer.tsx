@@ -6,13 +6,13 @@ import NavLinks from "./NavLinks";
 import ChatOnWhatsappButton from "../../Contact/components/get_in_touch/ChatOnWhatsappButton";
 
 function Footer() {
-  const logoTextStyle = `text-white text-blue-500`;
+
 
   return (
     <div className="flex w-full min-h-full  items-center flex-col bg-blue-950  ">
       <div className=" w-full flex flex-col py-5 lg:flex-row lg:justify-between">
         <div className="flex flex-col py-5 gap-4 items-center lg:items-start px-3">
-          <Logo AddBackground={true} className={logoTextStyle} />
+          <Logo  AddBackground={true}/>
           <div className="text-gray-500 px-3  text-md max-w-md flex justify-center  ">
             A UAE-based supply and technical services partner delivering
             engineered material packages, procurement and logistics support to

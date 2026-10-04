@@ -3,12 +3,12 @@ import { services } from "@/company_data/services";
 import WhoWeAre from "./about/components/WhoWeAre";
 import ServicesAndIndustries from "@/app/Services/components/ServicesAndIndustries";
 import VissionAndMission from "./about/components/VissionAndMission";
-import DisplayCertifications from "./OurReach/components/DisplayCertifications";
 import { useRouter } from "next/navigation";
 import { majorClients } from "@/company_data/majorClients";
 import MajorClients from "./Projects/components/MajorClients";
 import { MajorClientsType } from "./types/MajorClients";
 import HeroSection from "./common/hero/HeroSection";
+import DisplayCertifications from "./OurReach/components/DisplayCertifications";
 
 export default function Home() {
   const router = useRouter();
@@ -44,7 +44,6 @@ export default function Home() {
           ))}
         </div>
       </div>
-
       <div className="lg:px-8 p-1">
         <DisplayCertifications />
       </div>
