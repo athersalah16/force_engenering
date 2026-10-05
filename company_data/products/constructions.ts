@@ -2,335 +2,335 @@ import { Product } from "@/app/types/Product";
 
 export const constructions: Product[] = [
   {
-    image: "/products/constructions/Steel Plates/01_Steel_Plates.jpg",
+    image: "/products/constructions/Steel Plates/steel-plates.jpg",
     title: "Steel Plates",
     category: "Steel Plates",
   },
   {
-    image: "/products/constructions/Steel Plates/02_Flat_Bars.jpg",
+    image: "/products/constructions/Steel Plates/flat-bars.jpg",
     title: "Flat Bars",
     category: "Steel Plates",
   },
   {
     image:
-      "/products/constructions/Steel Plates/03_Fabricated_Metal_Accessories.jpg",
+      "/products/constructions/Steel Plates/fabricated-metal-accessories.jpg",
     title: "Fabricated Metal Accessories",
     category: "Steel Plates",
   },
   {
-    image: "/products/constructions/Steel Plates/04_Angles.jpg",
+    image: "/products/constructions/Steel Plates/angles.jpg",
     title: "Angles",
     category: "Steel Plates",
   },
   {
-    image: "/products/constructions/Steel Plates/05_Galvanized_Steel_Items.jpg",
+    image: "/products/constructions/Steel Plates/galvanized-steel-items.jpg",
     title: "Galvanized Steel Items",
     category: "Steel Plates",
   },
   {
-    image: "/products/constructions/Steel Plates/06_Beams.jpg",
+    image: "/products/constructions/Steel Plates/beams.jpg",
     title: "Beams",
     category: "Steel Plates",
   },
   {
-    image: "/products/constructions/Steel Plates/07_Channels.jpg",
+    image: "/products/constructions/Steel Plates/channels.jpg",
     title: "Channels",
     category: "Steel Plates",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/08_Concrete_Accessories.jpg",
+      "/products/constructions/Formwork Accessories/formwork-accessories-1.jpg",
     title: "Formwork Accessories",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/09_Cones.jpg",
+    image: "/products/constructions/Formwork Accessories/cones.jpg",
     title: "Cones",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/10_Base_Plates.jpg",
+    image: "/products/constructions/Formwork Accessories/base-plates.jpg",
     title: "Base Plates",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/11_Formwork_Accessories.jpg",
+      "/products/constructions/Formwork Accessories/formwork-accessories-2.jpg",
     title: "Formwork Accessories",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/12_Anchor_Bolts.jpg",
+    image: "/products/constructions/Formwork Accessories/anchor-bolts.jpg",
     title: "Anchor Bolts",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/14_Spacers.jpg",
+    image: "/products/constructions/Formwork Accessories/spacers.jpg",
     title: "Spacers",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/15_Tie_Rods.jpg",
+    image: "/products/constructions/Formwork Accessories/tie-rods.jpg",
     title: "Tie Rods",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/16_Rebar_Accessories.jpg",
+      "/products/constructions/Formwork Accessories/rebar-accessories.jpg",
     title: "Rebar Accessories",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Formwork Accessories/17_Rebar_Supports.jpg",
+    image: "/products/constructions/Formwork Accessories/rebar-supports.jpg",
     title: "Rebar Supports",
     category: "Formwork Accessories",
   },
   {
-    image: "/products/constructions/Rebar Accessories/18_Binding_Wire.jpg",
+    image: "/products/constructions/Rebar Accessories/binding-wire.jpg",
     title: "Binding Wire",
     category: "Rebar Accessories",
   },
   {
-    image: "/products/constructions/Rebar Accessories/19_Couplers.jpg",
+    image: "/products/constructions/Rebar Accessories/couplers.jpg",
     title: "Couplers",
     category: "Rebar Accessories",
   },
   {
     image:
-      "/products/constructions/Rebar Accessories/20_Manual_Rebar_Bending_Tools.jpg",
+      "/products/constructions/Rebar Accessories/manual-rebar-bending-tools.jpg",
     title: "Manual Rebar Bending Tools",
     category: "Rebar Accessories",
   },
   {
-    image: "/products/constructions/Rebar Accessories/21_Rebar_Chairs.jpg",
+    image: "/products/constructions/Rebar Accessories/rebar-chairs.jpg",
     title: "Rebar Chairs",
     category: "Rebar Accessories",
   },
   {
-    image: "/products/constructions/Construction Consumables/Masking_Tapes.jpg",
+    image: "/products/constructions/Construction Consumables/masking-tapes.jpg",
     title: "Masking Tapes",
     category: "Construction Consumables",
   },
   {
-    image: "/products/constructions/Construction Consumables/Screws.jpg",
+    image: "/products/constructions/Construction Consumables/screws.jpg",
     title: "Screws",
     category: "Construction Consumables",
   },
   {
-    image: "/products/constructions/Construction Consumables/Tapes.jpg",
+    image: "/products/constructions/Construction Consumables/tapes.jpg",
     title: "Tapes",
     category: "Construction Consumables",
   },
   {
-    image: "/products/constructions/Construction Consumables/Sealants.jpg",
+    image: "/products/constructions/Construction Consumables/sealants.jpg",
     title: "Sealants",
     category: "Construction Consumables",
   },
   {
-    image: "/products/constructions/Construction Consumables/Adhesives.jpg",
+    image: "/products/constructions/Construction Consumables/adhesives.jpg",
     title: "Adhesives",
     category: "Construction Consumables",
   },
   {
     image:
-      "/products/constructions/Construction Consumables/General_Site_Consumables.jpg",
+      "/products/constructions/Construction Consumables/general-site-consumables.jpg",
     title: "General Site Consumables",
     category: "Construction Consumables",
   },
   {
     image:
-      "/products/constructions/Construction Consumables/Cutting_Grinding_Consumables.jpg",
+      "/products/constructions/Construction Consumables/cutting-grinding-consumables.jpg",
     title: "Cutting / Grinding Consumables",
     category: "Construction Consumables",
   },
   {
-    image: "/products/constructions/Construction Consumables/Nails.jpg",
+    image: "/products/constructions/Construction Consumables/nails.jpg",
     title: "Nails",
     category: "Construction Consumables",
   },
   {
     image:
-      "/products/constructions/Concrete & Masonry Equipment/Vibrator_Accessories.jpg",
+      "/products/constructions/Concrete & Masonry Equipment/vibrator-accessories.jpg",
     title: "Vibrator Accessories",
     category: "Concrete & Masonry Equipment",
   },
   {
     image:
-      "/products/constructions/Concrete & Masonry Equipment/Hand_Tools_for_Concrete_Works.jpg",
+      "/products/constructions/Concrete & Masonry Equipment/hand-tools-for-concrete-works.jpg",
     title: "Hand Tools for Concrete Works",
     category: "Concrete & Masonry Equipment",
   },
   {
     image:
-      "/products/constructions/Concrete & Masonry Equipment/Basic_Masonry_Tools.jpg",
+      "/products/constructions/Concrete & Masonry Equipment/basic-masonry-tools.jpg",
     title: "Basic Masonry Tools",
     category: "Concrete & Masonry Equipment",
   },
   {
-    image: "/products/constructions/Fasteners/Bolts.jpg",
+    image: "/products/constructions/Fasteners/bolts.jpg",
     title: "Bolts",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Nuts.jpg",
+    image: "/products/constructions/Fasteners/nuts.jpg",
     title: "Nuts",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Expansion_Bolts.jpg",
+    image: "/products/constructions/Fasteners/expansion-bolts.jpg",
     title: "Expansion Bolts",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Anchors.jpg",
+    image: "/products/constructions/Fasteners/anchors.jpg",
     title: "Anchors",
     category: "Fasteners",
   },
   {
     image:
-      "/products/constructions/Fasteners/Mechanical_Fixing_Accessories.jpg",
+      "/products/constructions/Fasteners/mechanical-fixing-accessories.jpg",
     title: "Mechanical Fixing Accessories",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Washers.jpg",
+    image: "/products/constructions/Fasteners/washers.jpg",
     title: "Washers",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Threaded_Rods.jpg",
+    image: "/products/constructions/Fasteners/threaded-rods.jpg",
     title: "Threaded Rods",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Fasteners/Chemical_Anchors.jpg",
+    image: "/products/constructions/Fasteners/chemical-anchors.jpg",
     title: "Chemical Anchors",
     category: "Fasteners",
   },
   {
-    image: "/products/constructions/Hand Tools/Shovels.jpg",
+    image: "/products/constructions/Hand Tools/shovels-1.jpg",
     title: "Shovels",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Manual_Tools.jpg",
+    image: "/products/constructions/Hand Tools/manual-tools.jpg",
     title: "Manual Tools",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Site_Tool_Kits.jpg",
+    image: "/products/constructions/Hand Tools/site-tool-kits.jpg",
     title: "Site Tool Kits",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Crowbars.jpg",
+    image: "/products/constructions/Hand Tools/crowbars.jpg",
     title: "Crowbars",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Pick_Axes.jpg",
+    image: "/products/constructions/Hand Tools/pick-axes.jpg",
     title: "Pick Axes",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Ladders.jpg",
+    image: "/products/constructions/Hand Tools/ladders.jpg",
     title: "Ladders",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Shovels_2.jpg",
+    image: "/products/constructions/Hand Tools/shovels-2.jpg",
     title: "Shovels",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Hand Tools/Hammers.jpg",
+    image: "/products/constructions/Hand Tools/hammers.jpg",
     title: "Hammers",
     category: "Hand Tools",
   },
   {
-    image: "/products/constructions/Site Safety/Safety_Tapes.jpg",
+    image: "/products/constructions/Site Safety/safety-tapes.jpg",
     title: "Safety Tapes",
     category: "Site Safety",
   },
   {
-    image: "/products/constructions/Site Safety/Safety_Cones.jpg",
+    image: "/products/constructions/Site Safety/safety-cones-1.jpg",
     title: "Safety Cones",
     category: "Site Safety",
   },
   {
     image:
-      "/products/constructions/Site Safety/Temporary_Fencing_Accessories.jpg",
+      "/products/constructions/Site Safety/temporary-fencing-accessories.jpg",
     title: "Temporary Fencing Accessories",
     category: "Site Safety",
   },
   {
-    image: "/products/constructions/Site Safety/Safety_Signage.jpg",
+    image: "/products/constructions/Site Safety/safety-signage-1.jpg",
     title: "Safety Signage",
     category: "Site Safety",
   },
   {
-    image: "/products/constructions/Site Safety/Road_Site_Markers.jpg",
+    image: "/products/constructions/Site Safety/road-site-markers-1.jpg",
     title: "Road / Site Markers",
     category: "Site Safety",
   },
   {
-    image: "/products/constructions/Temporary Protection/Protective_Covers.jpg",
+    image: "/products/constructions/Temporary Protection/protective-covers.jpg",
     title: "Protective Covers",
     category: "Temporary Protection",
   },
   {
-    image: "/products/constructions/Temporary Protection/Warning_Tapes.jpg",
+    image: "/products/constructions/Temporary Protection/warning-tapes-1.jpg",
     title: "Warning Tapes",
     category: "Temporary Protection",
   },
   {
-    image: "/products/constructions/Temporary Protection/Tarpaulins.jpg",
+    image: "/products/constructions/Temporary Protection/tarpaulins.jpg",
     title: "Tarpaulins",
     category: "Temporary Protection",
   },
   {
     image:
-      "/products/constructions/Temporary Protection/Temporary_Barriers.jpg",
+      "/products/constructions/Temporary Protection/temporary-barriers.jpg",
     title: "Temporary Barriers",
     category: "Temporary Protection",
   },
   {
     image:
-      "/products/constructions/Temporary Protection/Floor_Wall_Protection_Materials.jpg",
+      "/products/constructions/Temporary Protection/floor-wall-protection-materials.jpg",
     title: "Floor / Wall Protection Materials",
     category: "Temporary Protection",
   },
   {
-    image: "/products/constructions/Temporary Protection/Plastic_Sheets.jpg",
+    image: "/products/constructions/Temporary Protection/plastic-sheets.jpg",
     title: "Plastic Sheets",
     category: "Temporary Protection",
   },
   {
-    image: "/products/constructions/Formwork Accessories/13_PVC_Chamfers.jpg",
+    image: "/products/constructions/Formwork Accessories/pvc-chamfers.jpg",
     title: "PVC Chamfers",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/WhatsApp Image 2026-09-09 at 4.24.10 PM.jpeg",
+      "/products/constructions/Formwork Accessories/white-wood.jpeg",
     title: "White Wood",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/WhatsApp Image 2026-09-09 at 4.24.33 PM.jpeg",
+      "/products/constructions/Formwork Accessories/plywood-sheets.jpeg",
     title: "Plywood Sheets",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/WhatsApp Image 2026-09-09 at 4.26.34 PM.jpeg",
+      "/products/constructions/Formwork Accessories/hessian-jute-bags.jpeg",
     title: "Hessian / Jute Bags",
     category: "Formwork Accessories",
   },
   {
     image:
-      "/products/constructions/Formwork Accessories/WhatsApp Image 2026-09-09 at 4.26.35 PM.jpeg",
+      "/products/constructions/Formwork Accessories/hessian-jute-rolls.jpeg",
     title: "Hessian / Jute Rolls",
     category: "Formwork Accessories",
   },

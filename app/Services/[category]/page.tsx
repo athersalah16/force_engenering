@@ -9,7 +9,6 @@ import { useParams, useRouter } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { allCategories } from "@/company_data/categories";
 import DisplayCategoriesSelectors from "./components/DisplayCategoriesSelector";
-import DisplayCategories from "./components/DisplayCategories";
 import { switchToTitle } from "@/app/utils/switchToTitle";
 import DisplayProductsCatalog from "../components/DisplayProductsCatalog";
 import useProducts from "@/app/hooks/useProducts";

@@ -2,328 +2,328 @@ import { Product } from "@/app/types/Product";
 
 export const electric: Product[] = [
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.31 PM.jpeg",
+    image: "/products/electric/Cable management/cable-trunking.jpeg",
     title: "Cable Trunking",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.32 PM (1).jpeg",
+    image: "/products/electric/Cable management/flexible-conduits.jpeg",
     title: "Flexible Conduits",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.32 PM.jpeg",
+    image: "/products/electric/Cable management/conduits.jpeg",
     title: "Conduits",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.33 PM (1).jpeg",
+    image: "/products/electric/Cable management/cable-glands.jpeg",
     title: "Cable Glands",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.33 PM.jpeg",
+    image: "/products/electric/Cable management/cable-trays.jpeg",
     title: "Cable Trays",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.34 PM.jpeg",
+    image: "/products/electric/Cable management/cable-cleats.jpeg",
     title: "Cable Cleats",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.35 PM (1).jpeg",
+    image: "/products/electric/Cable management/cable-ladders.jpeg",
     title: "Cable Ladders",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cable management/WhatsApp Image 2026-09-09 at 11.35.35 PM.jpeg",
+    image: "/products/electric/Cable management/cable-accessories.jpeg",
     title: "Cable Accessories",
     category: "Cable Management"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.11 PM.jpeg",
+    image: "/products/electric/Cables &Wires/power-cables.jpeg",
     title: "Power Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.12 PM (1).jpeg",
+    image: "/products/electric/Cables &Wires/instrumentation-cables.jpeg",
     title: "Instrumentation Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.12 PM.jpeg",
+    image: "/products/electric/Cables &Wires/control-cables.jpeg",
     title: "Control Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.14 PM.jpeg",
+    image: "/products/electric/Cables &Wires/fire-resistant-flame-retardant-cables.jpeg",
     title: "Fire Resistant Flame Retardant Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.15 PM (1).jpeg",
+    image: "/products/electric/Cables &Wires/welding-cables-1.jpeg",
     title: "Welding Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.15 PM (2).jpeg",
+    image: "/products/electric/Cables &Wires/flexible-cables.jpeg",
     title: "Flexible Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Cables &Wires/WhatsApp Image 2026-09-09 at 11.31.15 PM.jpeg",
+    image: "/products/electric/Cables &Wires/earthing-cables.jpeg",
     title: "Earthing Cables",
     category: "Cables & Wires"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.11 PM.jpeg",
+    image: "/products/electric/Earthing&lightning/earth-clamps.jpeg",
     title: "Earth Clamps",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.12 PM (1).jpeg",
+    image: "/products/electric/Earthing&lightning/earth-pits-inspection-chambers.jpeg",
     title: "Earth Pits Inspection Chambers",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.12 PM.jpeg",
+    image: "/products/electric/Earthing&lightning/copper-tapes.jpeg",
     title: "Copper Tapes",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.14 PM (1).jpeg",
+    image: "/products/electric/Earthing&lightning/earthing-accessories.jpeg",
     title: "Earthing Accessories",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.14 PM.jpeg",
+    image: "/products/electric/Earthing&lightning/lightning-arresters.jpeg",
     title: "Lightning Arresters",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.15 PM (1).jpeg",
+    image: "/products/electric/Earthing&lightning/lightning-protection-accessories.jpeg",
     title: "Lightning Protection Accessories",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/Earthing&lightning/WhatsApp Image 2026-09-09 at 11.57.15 PM.jpeg",
+    image: "/products/electric/Earthing&lightning/earthing-rods.jpeg",
     title: "Earthing Rods",
     category: "Earthing & Lightning"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.05 AM (1).jpeg",
+    image: "/products/electric/Electrical Control/contactors.jpeg",
     title: "Contactors",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.05 AM.jpeg",
+    image: "/products/electric/Electrical Control/timers.jpeg",
     title: "Timers",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.06 AM.jpeg",
+    image: "/products/electric/Electrical Control/control-transformers.jpeg",
     title: "Control Transformers",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.07 AM (1).jpeg",
+    image: "/products/electric/Electrical Control/push-buttons.jpeg",
     title: "Push Buttons",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.07 AM.jpeg",
+    image: "/products/electric/Electrical Control/control-panel-accessories.jpeg",
     title: "Control Panel Accessories",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.08 AM (1).jpeg",
+    image: "/products/electric/Electrical Control/indicator-lamps.jpeg",
     title: "Indicator Lamps",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.08 AM (2).jpeg",
+    image: "/products/electric/Electrical Control/selector-switches.jpeg",
     title: "Selector Switches",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Control/WhatsApp Image 2026-09-10 at 12.02.08 AM.jpeg",
+    image: "/products/electric/Electrical Control/relays.jpeg",
     title: "Relays",
-    category: "electrical Control"
+    category: "Electrical Control"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.25 AM (1).jpeg",
+    image: "/products/electric/Electrical Testing/phase-rotation-meters.jpeg",
     title: "Phase Rotation Meters",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.25 AM.jpeg",
+    image: "/products/electric/Electrical Testing/earth-ground-resistance-testers.jpeg",
     title: "Earth Ground Resistance Testers",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.26 AM.jpeg",
+    image: "/products/electric/Electrical Testing/multimeters.jpeg",
     title: "Multimeters",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.27 AM (1).jpeg",
+    image: "/products/electric/Electrical Testing/clamp-meters.jpeg",
     title: "Clamp Meters",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.27 AM.jpeg",
+    image: "/products/electric/Electrical Testing/loop-calibrators.jpeg",
     title: "Loop Calibrators",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.28 AM (1).jpeg",
+    image: "/products/electric/Electrical Testing/electrical-test-accessories.jpeg",
     title: "electrical Test Accessories",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/electrical Testing/WhatsApp Image 2026-09-10 at 12.07.28 AM.jpeg",
+    image: "/products/electric/Electrical Testing/insulation-resistance-testers.jpeg",
     title: "Insulation Resistance Testers",
-    category: "electrical Testing"
+    category: "Electrical Testing"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.48 PM.jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/plug-socket-combinations.jpeg",
     title: "Plug & Socket Combinations",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.51 PM (1).jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/industrial-plugs.jpeg",
     title: "Industrial Plugs",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.51 PM (2).jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/industrial-sockets.jpeg",
     title: "Industrial Sockets",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.51 PM.jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/junction-boxes.jpeg",
     title: "Junction Boxes",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.52 PM (1).jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/electrical-connectors.jpeg",
     title: "electrical Connectors",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/Industrial plugs,sockets& connections/WhatsApp Image 2026-09-09 at 11.45.52 PM.jpeg",
+    image: "/products/electric/Industrial plugs,sockets& connections/terminal-blocks.jpeg",
     title: "Terminal Blocks",
     category: "Industrial Plugs, Sockets & Connections"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.32 PM (1).jpeg",
+    image: "/products/electric/LV Switchers/mccbs.jpeg",
     title: "MCCBs",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.32 PM.jpeg",
+    image: "/products/electric/LV Switchers/circuit-breakers.jpeg",
     title: "Circuit Breakers",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.33 PM (1).jpeg",
+    image: "/products/electric/LV Switchers/mcc-panels.jpeg",
     title: "MCC Panels",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.33 PM.jpeg",
+    image: "/products/electric/LV Switchers/distribution-boards.jpeg",
     title: "Distribution Boards",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.34 PM (1).jpeg",
+    image: "/products/electric/LV Switchers/rccbs-rcbos.jpeg",
     title: "RCCBs RCBOs",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.34 PM (2).jpeg",
+    image: "/products/electric/LV Switchers/mcbs.jpeg",
     title: "MCBs",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.34 PM.jpeg",
+    image: "/products/electric/LV Switchers/changeover-switches.jpeg",
     title: "Changeover Switches",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/LV Switchers/WhatsApp Image 2026-09-09 at 11.41.35 PM.jpeg",
+    image: "/products/electric/LV Switchers/isolators.jpeg",
     title: "Isolators",
     category: "LV Switchers"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.26 PM.jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/street-lights.jpeg",
     title: "Street Lights",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.27 PM (1).jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/led-flood-lights.jpeg",
     title: "LED Flood Lights",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.27 PM.jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/emergency-lights.jpeg",
     title: "Emergency Lights",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.28 PM.jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/high-bay-lights.jpeg",
     title: "High Bay Lights",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.29 PM.jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/explosion-proof-lights.jpeg",
     title: "Explosion-Proof Lights",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.30 PM (1).jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/indoor-outdoor-lighting.jpeg",
     title: "Indoor Outdoor Lighting",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/Lightning &ligtning Accsesroes/WhatsApp Image 2026-09-09 at 11.50.30 PM.jpeg",
+    image: "/products/electric/Lightning &ligtning Accsesroes/lighting-accessories.jpeg",
     title: "Lighting Accessories",
     category: "Lighting & Lightning Accessories"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.23 AM (1).jpeg",
+    image: "/products/electric/electrical installtion/ferrules.jpeg",
     title: "Ferrules",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.23 AM (2).jpeg",
+    image: "/products/electric/electrical installtion/heat-shrink-tubes.jpeg",
     title: "Heat Shrink Tubes",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.23 AM.jpeg",
+    image: "/products/electric/electrical installtion/electrical-consumables.jpeg",
     title: "electrical Consumables",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.24 AM.jpeg",
+    image: "/products/electric/electrical installtion/cable-ties.jpeg",
     title: "Cable Ties",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.25 AM.jpeg",
+    image: "/products/electric/electrical installtion/cable-markers.jpeg",
     title: "Cable Markers",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.26 AM (1).jpeg",
+    image: "/products/electric/electrical installtion/terminal-accessories.jpeg",
     title: "Terminal Accessories",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   },
   {
-    image: "/products/electric/electrical installtion/WhatsApp Image 2026-09-10 at 12.11.26 AM.jpeg",
+    image: "/products/electric/electrical installtion/lugs.jpeg",
     title: "Lugs",
-    category: "electrical Installation"
+    category: "Electrical Installation"
   }
 ]
