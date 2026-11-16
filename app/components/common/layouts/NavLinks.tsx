@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import  useNavLinks from "../../../hooks/useNavLinks";
+import useNavLinks from "../../../hooks/useNavLinks";
 import Link from "next/link";
 import { navLinks } from "@/company_data/navLinks";
 type Props = {
@@ -8,16 +8,15 @@ type Props = {
   textStyle: string;
 
   selectedNavLinkStyle: string;
-  handleClick?: React.Dispatch<React.SetStateAction<string>>;
   handleMenuClick?: React.Dispatch<React.SetStateAction<boolean>>;
 };
 function NavLinks({
   className,
   textStyle,
-selectedNavLinkStyle,
+  handleMenuClick,
+  selectedNavLinkStyle,
 }: Props) {
   const { basePath } = useNavLinks();
-
 
   return (
     <nav className={`flex ${className}`}>
@@ -25,6 +24,7 @@ selectedNavLinkStyle,
         <Link
           href={href}
           key={index + 1}
+          onClick={() => handleMenuClick?.(false)}
           className={`${href === basePath ? selectedNavLinkStyle : textStyle} px-4 py-2 transition-colors duration-300 `}
         >
           {name}
