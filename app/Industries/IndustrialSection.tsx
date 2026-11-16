@@ -1,5 +1,5 @@
 import { industries } from "../../company_data/services";
-import BaseSection from "@/app/common/base/BaseSection";
+import BaseSection from "@/app/components/common/base/BaseSection";
 import ServicesAndIndustrialTitle from "@/app/Services/components/ServicesAndIndustrialTitle";
 import ServicesAndIndustries from "@/app/Services/components/ServicesAndIndustries";
 

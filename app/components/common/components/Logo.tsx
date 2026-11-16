@@ -10,7 +10,7 @@ function Logo({
   return (
     <div className={`flex flex-row gap-2 items-center justify-center`}>
       <div
-        className={`w-full h-16 ${AddBackground ? "bg-white rounded-lg  p-2 " : ""}  flex justify-center items-center`}
+        className={`w-full h-16 ${AddBackground ? "bg-gray-50 rounded-lg p-2" : ""} flex justify-center items-center`}
       >
         <Image
           src={"/logo.png"}

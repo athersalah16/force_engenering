@@ -14,7 +14,7 @@ function BaseSection({ children, sectionID, className ,title}: Props) {
       id={sectionID}
       className={`w-full min-h-screen px-3  ${className || ""}`}
     >
-      <pre className="uppercase text-blue-900 py-3 font-semibold leading-5 ">{title}</pre>
+      <pre className="uppercase text-brand-900 py-3 font-semibold leading-5 ">{title}</pre>
     {children}
     </section>
   );

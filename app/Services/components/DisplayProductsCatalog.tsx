@@ -13,7 +13,7 @@ function DisplayProductsCatalog({ sectionName }: Props) {
   };
   return (
     <a
-      className="bg-blue-600 text-center   text-sm lg:text-lg text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors  flex flex-row justify-center items-center gap-4 duration-300"
+      className="bg-primary text-center   text-sm lg:text-lg text-primary-foreground px-4 py-2 rounded-md hover:bg-brand-800 transition-colors  flex flex-row justify-center items-center gap-4 duration-300"
       download
       onClick={handleClick}
       href={`/products_and_brands/${sectionName}_products_and_brands.pdf`}

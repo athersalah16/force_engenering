@@ -1,5 +1,5 @@
 "use client";
-import BaseSection from "@/app/common/base/BaseSection";
+import BaseSection from "@/app/components/common/base/BaseSection";
 import VissionAndMission from "./VissionAndMission";
 
 import WhoWeAre from "./WhoWeAre";
@@ -9,7 +9,7 @@ function AboutSection() {
   return (
     <BaseSection title="about us" sectionID="about-us">
       <div className="w-full flex flex-col gap-8 py-5 lg:px-8">
-        <div className=" w-full flex pt-5 justify-center items-center text-blue-500 text-4xl font-bold">
+        <div className=" w-full flex pt-5 justify-center items-center text-brand-600 text-4xl font-bold">
           About Us
         </div>
         <div className="flex lg:flex-row flex-col ">

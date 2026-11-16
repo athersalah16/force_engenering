@@ -33,7 +33,7 @@ function SupportedMarkets({  setActiveMarket }: Props) {
 
   return (
     <div className="mt-4">
-      <p className="text-xl font-semibold text-blue-700">Supported Markets</p>
+      <p className="text-xl font-semibold text-brand-700">Supported Markets</p>
       <div className="py-6 flex flex-col gap-2">
         {supportedMarkets.map((country, index) => (
           <button
@@ -42,11 +42,11 @@ function SupportedMarkets({  setActiveMarket }: Props) {
             onMouseLeave={handleLeave}
             onClick={() => handleClick(country)}
             className={`${
-              selectedMarket === country ? "bg-blue-600 text-white" : ""
-            } px-3 py-2 flex flex-row gap-4 rounded-md hover:shadow-lg hover:shadow-blue-200 hover:border-none hover:-translate-y-1.5 hover:bg-blue-600 hover:text-white duration-300 cursor-pointer border border-gray-200 text-blue-600 text-left`}
+              selectedMarket === country ? "bg-primary text-primary-foreground" : ""
+            } px-3 py-2 flex flex-row gap-4 rounded-md hover:shadow-lg hover:shadow-brand-900/10 hover:border-none hover:-translate-y-1.5 hover:bg-primary hover:text-primary-foreground duration-300 cursor-pointer border border-border text-primary text-left`}
             key={country}
           >
-            <div className="border-none flex justify-center hover:border text-white bg-blue-800 items-center rounded-full w-8 h-8">
+            <div className="border-none flex justify-center hover:border hover:text-primary-foreground bg-brand-800 items-center rounded-full w-8 h-8">
               0{index + 1}
             </div>
             {country}

@@ -4,11 +4,16 @@ import { getTheData } from "../../../utils/getFormData";
 import { validateForm } from "../../../utils/validateData";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
+import { Button } from "@/components/ui/button";
 
 function RequestQuoteForm() {
   const [error, setError] = useState<boolean>(false);
   const formRef = useRef<HTMLFormElement>(null);
   const [loading, setLoading] = useState<boolean>(false);
+
+  const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+  const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
+  const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     try {
@@ -26,10 +31,10 @@ function RequestQuoteForm() {
       setLoading(true);
 
       const response = await emailjs.sendForm(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        serviceId,
+        templateId,
         formRef.current,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!,
+        publicKey,
       );
 
       if (response.status === 200) {
@@ -46,11 +51,11 @@ function RequestQuoteForm() {
     }
   };
 
-  const textStyle = `outline-none border text-black border-gray-300 rounded-md py-2 px-4 focus:ring-2  focus:ring-blue-500 
-  ${error && "focus:ring-red-500 border-red-500 focus:ring-2 "}`;
+  const textStyle = `outline-none border text-foreground border-input rounded-md py-2 px-4 focus:ring-2 focus:ring-ring 
+  ${error && "focus:ring-destructive border-destructive focus:ring-2 "}`;
   return (
-    <div className="w-full lg:w-[45%] bg-gray-100 p-1 lg:p-8  rounded-lg shadow-md">
-      <h1 className="text-blue-950 py-2 lg:pb-2 text-xl lg:text-3xl font-bold text-center">
+    <div className="w-full lg:w-[45%] bg-muted p-1 lg:p-8 rounded-lg shadow-md">
+      <h1 className="text-brand-950 py-2 lg:pb-2 text-xl lg:text-3xl font-bold text-center">
         Request a Quote
       </h1>
 
@@ -101,16 +106,17 @@ function RequestQuoteForm() {
           rows={4}
         />
 
-        <button
+        <Button
           type="submit"
+          variant={'default'}
           disabled={loading}
-          className={`bg-blue-600 flex flex-row gap-3 justify-center items-center text-white py-2 px-4 rounded-md hover:bg-blue-800 focus:outline-none cursor-pointer  ${loading && " cursor-not-allowed"}`}
+          className={`justify-center ml-4 px-3 py-2 `}
         >
           {loading && (
-            <div className="animate-spin  w-5 h-5  border-2  border-gray-200 border-t-blue-400  rounded-full " />
+            <div className="animate-spin  w-5 h-5  border-2  border-border border-t-brand-600  rounded-full " />
           )}
           {loading ? "Sending" : "Send message"}
-        </button>
+        </Button>
       </form>
     </div>
   );

@@ -9,8 +9,8 @@ type Props = {
 function DiplayProduct({ data }: Props) {
   const { image, title } = data;
  return (
-    <div className=" h-full w-full lg:max-w-md overflow-hidden rounded-md border border-blue-200 hover:cursor-pointer transition-transform hover:scale-105 hover:-translate-y-1.5 duration-300">
-      <div className="relative h-[80%] w-full border-b border-b-blue-200">
+    <div className=" h-full w-full lg:max-w-md overflow-hidden rounded-md border border-border hover:cursor-pointer transition-transform hover:scale-105 hover:-translate-y-1.5 duration-300">
+      <div className="relative h-[80%] w-full border-b border-b-border">
         <Image
           loading="lazy"
           src={image}
@@ -21,7 +21,7 @@ function DiplayProduct({ data }: Props) {
         />
       </div>
       <p
-        className={`p-2  font-semibold text-center ${title.length > 8 ? "text-lg " : "text-2xl"} text-blue-900 hover:cursor-text`}
+        className={`p-2  font-semibold text-center ${title.length > 8 ? "text-lg " : "text-2xl"} text-brand-900 hover:cursor-text`}
       >
         {switchToTitle(title)}
       

@@ -10,20 +10,20 @@ function ProcessTimeline({ data, index, className }: Props) {
 
   return (
     <div
-      className={`px-4 py-2   md:border-0 ${index !== 0 ? " border-b border-b-blue-300 md:border-l md:border-l-blue-300 lg:border-l lg:border-l-blue-300" : " border-b border-b-blue-300"}`}
+      className={`px-4 py-2   md:border-0 ${index !== 0 ? " border-b border-b-border md:border-l md:border-l-border lg:border-l lg:border-l-border" : " border-b border-b-border"}`}
     >
       <Icon
         aria-hidden="true"
-        className="mx-auto mb-3 size-10 text-blue-500"
+        className="mx-auto mb-3 size-10 text-brand-600"
         strokeWidth={1.6}
       />
       <h3
-        className={`text-center text-sm font-semibold lg:font-bold uppercase ${className === "text-white" ? "text-white" : "text-blue-900"}`}
+        className={`text-center text-sm font-semibold lg:font-bold uppercase ${className === "text-white" ? "text-primary-foreground" : "text-brand-900"}`}
       >
         {title}
       </h3>
       <p
-        className={`mt-3 text-center text-sm leading-6 ${className === "text-white" ? "text-white" : "text-blue-900"} `}
+        className={`mt-3 text-center text-sm leading-6 ${className === "text-white" ? "text-primary-foreground" : "text-brand-900"} `}
       >
         {description}
       </p>

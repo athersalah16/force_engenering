@@ -30,8 +30,8 @@ function GlobalSouringNetwork({ activeMarket }: Props) {
           }}
         >
           <div className="relative flex items-center gap-2">
-            <MapPin className="h-6 w-6 text-blue-600 drop-shadow-blue-200 scale-110 animate-pulse" />
-            <span className="rounded-full bg-white/90 px-2 py-1 text-[10px] font-semibold text-blue-700 shadow-sm">
+            <MapPin className="h-6 w-6 text-brand-700 scale-110 animate-pulse" />
+            <span className="rounded-full bg-card/90 px-2 py-1 text-[10px] font-semibold text-brand-700 shadow-sm">
               {activeMarket}
             </span>
           </div>

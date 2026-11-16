@@ -10,11 +10,11 @@ const capabilities = [
 function HowCanWeHelp() {
   return (
     <article className="w-full max-w-xl px-4 py-2 flex-col">
-      <h2 className="text-3xl font-bold text-blue-950">How Can We Help?</h2>
-      <p className="mt-4 max-w-lg text-base leading-7 text-gray-500">
+      <h2 className="text-3xl font-bold text-brand-950">How Can We Help?</h2>
+      <p className="mt-4 max-w-lg text-base leading-7 text-muted-foreground">
         Tell us about your project requirements, material needs, or sourcing
         enquiries. <br />
-        <span className="text-blue-600 font-semibold">
+        <span className="text-copper-700 font-semibold">
           {" "}
           Our team is ready to support you with:
         </span>
@@ -26,13 +26,13 @@ function HowCanWeHelp() {
       >
         {capabilities.map(({ label, icon: Icon }, index) => (
           <li key={label} className="flex items-start gap-3">
-            <p className="text-blue-600 font-bold">{index + 1}. </p>
+            <p className="text-brand-700 font-bold">{index + 1}. </p>
             <Icon
               aria-hidden="true"
-              className="mt-0.5 size-5 shrink-0 text-blue-600"
+              className="mt-0.5 size-5 shrink-0 text-brand-700"
               strokeWidth={1.8}
             />
-            <span className="text-sm leading-6 text-blue-800">{label}</span>
+            <span className="text-sm leading-6 text-brand-800">{label}</span>
           </li>
         ))}
       </ol>

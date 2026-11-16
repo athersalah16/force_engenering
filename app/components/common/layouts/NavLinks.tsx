@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { navLinks } from "../../../company_data/navLinks";
-import  useNavLinks from "../../hooks/useNavLinks";
+import  useNavLinks from "../../../hooks/useNavLinks";
+import Link from "next/link";
+import { navLinks } from "@/company_data/navLinks";
 type Props = {
   className: string;
   textStyle: string;
@@ -13,7 +14,7 @@ type Props = {
 function NavLinks({
   className,
   textStyle,
-  selectedNavLinkStyle,
+selectedNavLinkStyle,
 }: Props) {
   const { basePath } = useNavLinks();
 
@@ -21,13 +22,13 @@ function NavLinks({
   return (
     <nav className={`flex ${className}`}>
       {navLinks.map(({ name, href }, index) => (
-        <a
+        <Link
           href={href}
           key={index + 1}
-          className={` ${textStyle}  px-4  py-2  ${href === basePath ? selectedNavLinkStyle  : ""}  transition-colors duration-300 text-black/45  `}
+          className={`${href === basePath ? selectedNavLinkStyle : textStyle} px-4 py-2 transition-colors duration-300 `}
         >
           {name}
-        </a>
+        </Link>
       ))}
     </nav>
   );

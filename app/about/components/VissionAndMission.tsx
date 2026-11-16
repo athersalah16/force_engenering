@@ -7,18 +7,18 @@ function VissionAndMission() {
       {vissionAndMission.map((item, index) => (
         <div
           key={index}
-          className={`${item.title === 'mission'? 'mr-6':''} flex flex-col w-full  lg:max-w-md  justify-center items-center border-gray-200 border rounded-lg shadow-lg px-4 gap-5 py-6 hover:bg-[#185582] hover:text-[#E2E8F0]  transition-all  hover:-translate-y-1.5 duration-300 cursor-pointer text-gray-400`}
+          className={`brand-card ${item.title === 'mission'? 'mr-6':''} group flex flex-col w-full lg:max-w-md justify-center items-center border rounded-lg shadow-lg px-4 gap-5 py-6 transition-all hover:-translate-y-1.5 duration-300 cursor-pointer`}
         >
           <div className="flex flex-row text-2xl gap-2">
-            <div className={` w-12 h-12 bg-blue-600 font-bold rounded-full flex justify-center items-center `}>
+            <div className={` w-12 h-12 bg-transparent font-bold rounded-full flex justify-center items-center `}>
               {item.title === "vission" ? (
-                <Rocket className="text-white" />
+                <Rocket className="text-primary-foreground" />
               ) : (
-                <Target className="text-white" size={32} />
+                <Target className="text-primary-foreground" size={32} />
               )}
             </div>
 
-            <h2 className="uppercase text-blue-600 font-bold ">
+            <h2 className="uppercase text-brand-700 font-bold group-hover:text-brand-100">
               our {item.title}
             </h2>
           </div>

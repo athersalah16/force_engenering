@@ -7,8 +7,9 @@ import { useRouter } from "next/navigation";
 import { majorClients } from "@/company_data/majorClients";
 import MajorClients from "./Projects/components/MajorClients";
 import { MajorClientsType } from "./types/MajorClients";
-import HeroSection from "./common/hero/HeroSection";
+
 import DisplayCertifications from "./OurReach/components/DisplayCertifications";
+import HeroSection from "./components/common/hero/HeroSection";
 
 export default function Home() {
   const router = useRouter();
@@ -16,7 +17,7 @@ export default function Home() {
     router.push("/about");
   };
   return (
-    <div className="w-full flex flex-col gap-5  min-h-screen bg-white">
+    <div className="w-full flex flex-col gap-5  min-h-screen bg-background">
       <HeroSection />
       <div className="w-full flex  flex-col px-2 lg:px-8 py-5 gap-8 ">
         <div className="flex flex-col lg:justify-between lg:flex-row px-4">
@@ -32,14 +33,19 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center ">
-        <h2 className="text-4xl font-semibold text-blue-900">Our Services </h2>{" "}
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 px-8 py-6  gap-4">
+        <h2 className="text-4xl font-semibold text-brand-900">Our Services </h2>{" "}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 px-8 py-6 gap-4">
           {services.map((service, index) => (
             <ServicesAndIndustries
               key={index + 1}
               id={index}
               data={service}
               router={router}
+              className={
+                index >= services.length - 2
+                  ? "lg:col-span-3"
+                  : "lg:col-span-2"
+              }
             />
           ))}
         </div>
@@ -49,7 +55,7 @@ export default function Home() {
       </div>
 
       <div className="py-4 w-full flex justify-center  flex-col">
-        <span className="text-blue-400  text-center uppercase text-4xl font-semibold py-5">
+        <span className="text-copper-600  text-center uppercase text-4xl font-semibold py-5">
           Major Clients
         </span>
         <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 rounded-md lg:px-10">

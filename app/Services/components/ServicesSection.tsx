@@ -1,5 +1,5 @@
 'use client'
-import BaseSection from "@/app/common/base/BaseSection";
+import BaseSection from "@/app/components/common/base/BaseSection";
 import { services } from "../../../company_data/services";
 import ServicesAndIndustries from "@/app/Services/components/ServicesAndIndustries";
 import ServicesAndIndustrialTitle from "@/app/Services/components/ServicesAndIndustrialTitle";
@@ -21,20 +21,25 @@ Comprehensive sourcing and supply solutions tailored to the technical,
           secondTitle="Technical Expertise."
           description={industrialDescription}
         />
-        <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 px-8 py-6  gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 px-8 py-6 gap-4">
           {services.map((service, index) => (
             <ServicesAndIndustries
               router={router}
               key={index + 1}
               id={index}
               data={service}
+              className={
+                index >= services.length - 2
+                  ? "lg:col-span-3"
+                  : "lg:col-span-2"
+              }
             />
           ))}
         </div>
       </div>
       <IndustrialSection />
-      <div className="mt-10 flex justify-center flex-col gap-6 border-t border-white/45 pt-8 sm:flex-row sm:items-center">
-        <p className="text-sm font-medium uppercase tracking-[0.15em] text-slate-400">
+      <div className="mt-10 flex justify-center flex-col gap-6 border-t border-border pt-8 sm:flex-row sm:items-center">
+        <p className="text-sm font-medium uppercase tracking-[0.15em] text-muted-foreground">
           One Partner. Multiple Categories. Reliable Project Supply.
         </p>
       </div>

@@ -30,7 +30,7 @@ function CertificationDialog({ certificationDir, setCertificationDir }: Props) {
       <DialogTrigger />
       <DialogContent className={``}>
         <div className="w-full h-full flex flex-col justify-center items-center px-2 gap-3  py-4">
-          <p className="text-blue-600 font-bold text-lg text-center">{title} Certified</p>
+          <p className="text-brand-700 font-bold text-lg text-center">{title} Certified</p>
           <Image
             alt={certificationDir?.replace("/", "")}
             src={certificationDir}

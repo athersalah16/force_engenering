@@ -10,7 +10,7 @@ function DisplayCertifications() {
   };
   return (
     <div>
-      <div className="text-4xl text-center font-semibold text-blue-700">
+      <div className="text-4xl text-center font-semibold text-brand-700">
         Certifications
       </div>
       <div className="w-full flex lg:justify-center lg:flex-row flex-col py-5 px-4 gap-4">
@@ -18,7 +18,7 @@ function DisplayCertifications() {
           <div
             onClick={() => handleClick(certificateDir)}
             key={index}
-            className="w-full min-h-70 duration-300 cursor-pointer  rounded-lg border border-blue-200 flex items-center justify-center py-4 transition-transform hover:scale-105 hover:-translate-y-1.5 hover:shadow-blue-100 hover:shadow-xl gap-4"
+            className="w-full min-h-70 duration-300 cursor-pointer  rounded-lg border border-border flex items-center justify-center py-4 transition-transform hover:scale-105 hover:-translate-y-1.5 hover:shadow-brand-900/10 hover:shadow-xl gap-4"
           >
             <div
               style={{ height: title === "ICV" ? 280 : 150 }}
